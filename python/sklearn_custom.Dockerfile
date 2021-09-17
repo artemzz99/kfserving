@@ -1,4 +1,4 @@
-FROM python:3.7-slim
+FROM python:3.8.12-slim
 
 COPY sklearnserver_custom sklearnserver
 COPY kfserving kfserving
